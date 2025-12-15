@@ -1,0 +1,10 @@
+
+@font-face {
+  font-family: "Glitz";
+  src: url("/public//font/glitz.ttf") format("truetype");
+  font-style: normal;
+}
+
+nav {
+  font-family: 'Glitz', sans-serif;
+}

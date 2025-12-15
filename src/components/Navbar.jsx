@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaCalendarAlt, FaPhoneAlt } from "react-icons/fa";
+import Logo from '../assets/logo.png';
+
 
 export default function Navbar() {
 
@@ -39,7 +41,7 @@ export default function Navbar() {
           >
             <Link to="/">
               <img
-                src="/public/logo.png"
+                src={Logo}
                 alt="Logo"
                 className="h-13 w-14"
                 style={{ transform: 'rotate(-1deg)' }}

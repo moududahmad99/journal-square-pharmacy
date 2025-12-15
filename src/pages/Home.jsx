@@ -8,6 +8,8 @@ import feature2 from '../assets/2.jpg';
 import feature3 from '../assets/3.jpg';
 import feature4 from '../assets/4.jpg';
 import { Link } from 'react-router-dom';
+import Banner from '../assets/bannerr.jpg';
+
 const Home = () => {
 
   const SafeMotion = ({ children, ...props }) => {
@@ -69,8 +71,8 @@ const Home = () => {
           {/* Background Image with Custom Gradient Overlay */}
           <div className="absolute inset-0">
             <img
-              src="/public/bannerr.jpg"
-              alt="Premium Pharmacy Background"
+              src={Banner}
+              alt="    Pharmacy Background"
               className="w-full h-full object-cover object-center"
             />
             {/* Custom Light Gradient Overlay */}
@@ -534,7 +536,7 @@ const Home = () => {
           {/* Content Grid */}
           <div className="grid lg:grid-cols-1 gap-12 items-center mb-20">
             {/* Text Content */}
-             
+
 
             {/* STUNNING IMAGE GALLERY */}
             <div className="flex flex-col lg:flex-row gap-12 mb-20">

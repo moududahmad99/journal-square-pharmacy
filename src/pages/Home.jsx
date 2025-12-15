@@ -69,7 +69,7 @@ const Home = () => {
           {/* Background Image with Custom Gradient Overlay */}
           <div className="absolute inset-0">
             <img
-              src="/src/assets/bannerr.jpg"
+              src="/public/bannerr.jpg"
               alt="Premium Pharmacy Background"
               className="w-full h-full object-cover object-center"
             />
